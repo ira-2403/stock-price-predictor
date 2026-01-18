@@ -2,7 +2,10 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 def preprocess_data(csv_path):
     df = pd.read_csv(csv_path)
+    df=df[df['Close']!='AAPL']
     df=df.dropna()
+    cols=['Open','High','Low','Close','Volume']
+    df[cols]=df[cols].apply(pd.to_numeric)
     X = df[['Open','High','Low','Volume']]
     y=df['Close']
     X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2,random_state=42)
