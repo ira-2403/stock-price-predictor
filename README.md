@@ -28,10 +28,10 @@ A machine learning based project that predicts the closing price of a stock usin
 
 ## How to Run
 '''bash
-pip install -r requirements.txt
-python src/fetch_data.py
-python src/train_model.py
-streamlit run src/app.py
+- pip install -r requirements.txt
+- python src/fetch_data.py
+- python src/train_model.py
+- streamlit run src/app.py
 '''
 
 ## Future Improvement
