@@ -1,6 +1,6 @@
 # 📈 Stock Price Predictor
 
-A machine learning based project that predicts the next-day closing price of a stock using historical market data.
+A machine learning based project that predicts the closing price of a stock using historical market data using Linear Regression and Streamlit.
 
 ## Tech Stack
 - Python
@@ -14,17 +14,24 @@ A machine learning based project that predicts the next-day closing price of a s
 - data/
 - src/
 - app.py
+- fetch_data.py
+- preprocess_data.py
+- train_model.py
 - requirements.txt
+- result.csv
 
 ## Features
-- Fetchs real-time stock data
-- Prepare dataset for ML
-- Predicts next-day closing price
+- Stock price prediction
+- Model evaluation (MAE,RMSE)
+- Interactive Streamlit web app
+- Visualization of predictions
 
 ## How to Run
 '''bash
 pip install -r requirements.txt
 python src/fetch_data.py
+python src/train_model.py
+streamlit run src/app.py
 '''
 
 ## Future Improvement
