@@ -26,6 +26,11 @@ A machine learning based project that predicts the closing price of a stock usin
 - Interactive Streamlit web app
 - Visualization of predictions
 
+## Supported Stocks
+- Apple (APPL)
+- Google (GOOGL)
+- Microsoft (MSFT)
+
 ## How to Run
 '''bash
 - pip install -r requirements.txt
