@@ -1,3 +1,4 @@
+python
 yfinance
 pandas
 numpy

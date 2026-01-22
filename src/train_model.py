@@ -30,8 +30,8 @@ def train_model(stock):
         header=not file_exists
         )
     print("Saved predictions to result.csv")
-    joblib.dump(model,"model.pkl")
-    print("Model saved as model.pkl")
+    joblib.dump(model,f"model_{stock}.pkl")
+    print(f"Model saved as model_{stock}.pkl")
 if __name__=="__main__":
     train_model("AAPL")
     train_model("GOOGL")
