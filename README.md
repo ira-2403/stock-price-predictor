@@ -35,14 +35,13 @@ A machine learning based project that predicts the closing price of a stock usin
 - Microsoft (MSFT)
 
 ## How to Run
-'''bash
 - pip install -r requirements.txt
 - python src/fetch_data.py
 - python src/train_model.py
 - streamlit run src/app.py
-'''
+
+## Deployed
+- https://stock-price-predictor-9vyjy3njv37n2upgdceasj.streamlit.app/
 
 ## Future Improvement
 - LSTM model
-- Multi-stock comparison
-- Live deployment
