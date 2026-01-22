@@ -17,6 +17,9 @@ A machine learning based project that predicts the closing price of a stock usin
 - fetch_data.py
 - preprocess_data.py
 - train_model.py
+- model_AAPL.pkl
+- model_GOOGL.pkl
+- model_MSFT.pkl
 - requirements.txt
 - result.csv
 
