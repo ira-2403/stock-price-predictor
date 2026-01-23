@@ -11,7 +11,13 @@ A machine learning based project that predicts the closing price of a stock usin
 - Streamlit
 
 ## Project Structure
+- .devcontainer
+- .venv
+- .vscode
 - data/
+- AAPL_stock_data.csv
+- GOOGL_stock_data.csv
+- MSFT_stock_data.csv
 - src/
 - app.py
 - fetch_data.py
@@ -22,6 +28,15 @@ A machine learning based project that predicts the closing price of a stock usin
 - model_MSFT.pkl
 - requirements.txt
 - result.csv
+- runtime.txt
+
+## Unique Selling Point
+- End-to-end ML pipeline: data fetching->preprocessing->training->delopment
+- Multi-stock support using separate trained models
+- Live, interactive UI for predictions
+- Clear model preformance visualization (Actual vs Predicted)
+- Beginner-friendly yet production-style project structure
+- Deployed and publicly accessible via Streamlit Cloud
 
 ## Features
 - Stock price prediction
